@@ -1,0 +1,27 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Wingman\n"
+"Report-Msgid-Bugs-To: roberto\n"
+"POT-Creation-Date: 2016-07-29 13:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 16948\n"
+"X-Loco-Api-Version: 1.0.14 20160726-1"
+
+#: loco:579b4deb14d7259f668b4567
+msgctxt "Title from admin page"
+msgid "ADMIN_PAGE_TITLE"
+msgstr "SEO Wingman"
+
+msgid "ADMIN_MENU_TITLE"
+msgstr "SEO Wingman"

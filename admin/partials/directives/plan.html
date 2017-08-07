@@ -1,0 +1,23 @@
+<hgroup>
+	<h2 class="pg-wingman-plan-flag" data-ng-show="plan.metadata.top_seller">
+		Most Popular
+	</h2>
+	<h2 class="pg-wingman-plan-flag" data-ng-show="$root.subscriber.subscriptions.data[0].plan.id == plan.id">
+		Current Plan
+	</h2>
+	<h1>
+		{{ plan.name }}<small>package</small>
+	</h1>
+</hgroup>
+<div class="wingman-plan-content">
+	<div class="pg-wingman-plan-features" data-ng-bind-html="plan.metadata.description"></div>
+	<div class="pg-wingman-plan-price pg-mb-20" ng-show="plan.amount">
+		<span class="pg-wingman-plan-price-currency">{{ $root.symbols[plan.currency] }}</span>
+		<span class="pg-wingman-plan-price-amount">{{ plan.amount / 100 | number:0 }}</span>
+		<span class="pg-wingman-plan-price-interval">/ {{ plan.interval == "month" ? "Mo" : "Yr" }}</span>
+	</div>
+</div>
+<button type="button" class="wingman-btn"  data-ng-show="$parent.showSignUp() && plan.id != 'CUS' && $root.subscriber.subscriptions.data[0].plan.id != plan.id" data-ng-click="$parent.choose(plan)">{{ $root.subscriber.id ? "Change Plan" : "Sign up" }}</button>
+<button type="button" class="wingman-btn wingman-btn-act"  data-ng-show="$parent.showSignUp() && plan.id != 'CUS' && $root.subscriber.subscriptions.data[0].plan.id == plan.id" disabled>Current plan</button>
+<a href="#/contact-us" class="wingman-btn" data-ng-show="$parent.showSignUp() && plan.id == 'CUS'">Contact Us</a>
+<a href="#/change-plan" class="wingman-btn wingman-btn-act wingman-btn-small" data-ng-hide="$parent.showSignUp() || $root.subscriber.subscriptions.data[0].plan.id != plan.id">Change Plan</a>

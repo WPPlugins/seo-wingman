@@ -1,0 +1,648 @@
+/* Custom fonts */
+@import "fonts/stylesheet.css";
+
+
+/* WordPress styles */
+body[class*="seo-wingman"] #wpwrap {
+	background-color: #fafafa;
+}
+
+body[class*="seo-wingman"] #pago-wingman-app * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body[class*="seo-wingman"] #wpfooter {
+	display: none;
+}
+
+body[class*="seo-wingman"] #wpcontent,
+body[class*="seo-wingman"] #wpbody-content {
+	padding: 0;
+}
+
+
+/* General component styles */
+/* Structure */
+#pago-wingman-app .container {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+#pago-wingman-app [class*="span"]:not(:first-child) {
+	margin-left: 2.5641025641026%;
+}
+
+#pago-wingman-app .clearfix {
+	clear: both;
+}
+
+/* Type */
+#pago-wingman-app {
+	font-family: "Aaux ProLight", "Helvetica Neue", Arial, sans-serif;
+	font-size: 16px;
+}
+
+#pago-wingman-app h1 {
+	font-family: Verlag, "Arial Black", sans-serif;
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#pago-wingman-app h2 {
+	font-family: Verlag, "Arial Black", sans-serif;
+	font-size: 1.5em;
+	color: #0244af;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#pago-wingman-app h3 {
+	font-size: 1.1875em;
+	color: #fff;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pago-wingman-app h4 {
+	font-family: Verlag, "Arial Black", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#pago-wingman-app .number-fix {
+	font-size: 1.25em;
+}
+
+/* Buttons */
+#pago-wingman-app .wingman-btn {
+	font-family: Verlag, "Arial Black", sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #0244af;
+	display: inline-block;
+	border: 0;
+}
+
+#pago-wingman-app .wingman-btn-act {
+	background-color: #ddd;
+	color: #2a2a2a;
+	padding: 9px 13px;
+}
+
+#pago-wingman-app .wingman-btn-alt {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+#pago-wingman-app .wingman-btn-small {
+	font-size: .9em;
+	padding: 9px 13px;
+}
+
+#pago-wingman-app .wingman-btn-small-x {
+	font-size: .6em;
+	padding: 4px 10px;
+}
+
+#pago-wingman-app .wingman-btn-warning {
+	background-color: #FFCBCB;
+	color: #B93434;
+	border: 1px solid #B93434;
+}
+
+/* Forms */
+#pago-wingman-app input:not([type="checkbox"]):not([type="radio"]),
+#pago-wingman-app select,
+#pago-wingman-app .chosen-container > a,
+#pago-wingman-app textarea {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 10px;
+	background: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#pago-wingman-app input:not([type="checkbox"]):not([type="radio"]):focus,
+#pago-wingman-app select:focus,
+#pago-wingman-app .chosen-container.chosen-container-active > a,
+#pago-wingman-app textarea:focus {
+	outline: none;
+	border-color: #0244af;
+}
+
+#pago-wingman-app textarea {
+	height: auto;
+}
+
+#pago-wingman-app input[type="checkbox"],
+#pago-wingman-app input[type="radio"] {
+	margin-top: 0;
+	/*margin-bottom: 15px;*/
+	vertical-align: baseline;
+}
+
+#pago-wingman-app input[type="checkbox"] + label,
+#pago-wingman-app input[type="radio"] + label {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#pago-wingman-app label {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#pago-wingman-app ng-form.row {
+	display: block;
+}
+
+#pago-wingman-app .chosen-container {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 1em;
+	width: 100% !important;
+}
+
+#pago-wingman-app .chosen-container > a {
+	margin-bottom: 0;
+	line-height: 1.15;
+	background-image: url(../img/font-awesome_4-6-3_angle-down_24_0_000000_none.png);
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+	-webkit-background-size: auto 30%;
+	background-size: auto 30%;
+}
+
+#pago-wingman-app .chosen-container.chosen-container-active > a {
+	background-image: url(../img/font-awesome_4-6-3_angle-up_24_0_000000_none.png);
+}
+
+#pago-wingman-app .chosen-container .chosen-search input {
+	margin-bottom: 0;
+}
+
+#pago-wingman-app .ng-submitted input.ng-invalid,
+#pago-wingman-app .ng-submitted select.ng-invalid + .chosen-container > a,
+#pago-wingman-app .ng-submitted input[type="checkbox"].ng-invalid + label,
+#pago-wingman-app .ng-submitted input[type="radio"].ng-invalid + label,
+#pago-wingman-app input.ng-invalid.ng-touched,
+#pago-wingman-app select.ng-invalid.ng-touched + .chosen-container > a,
+#pago-wingman-app input[type="checkbox"].ng-invalid.ng-touched + label,
+#pago-wingman-app input[type="radio"].ng-invalid.ng-touched + label {
+	border-color: #cb2929;
+	background-color: #FFFDFD;
+}
+
+#pago-wingman-app [ng-message],
+#pago-wingman-app [data-ng-message] {
+	color: #cb2929;
+	font-size: .8em;
+	font-weight: bold;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+
+#pago-wingman-app button[type="submit"] {
+	margin-top: 15px;
+}
+
+
+/* Landing page */
+#pago-wingman-app .plans-page {
+	background-color: #fff;
+}
+
+#pago-wingman-app .header-wrapper {
+	background-image: url("../img/bg-section01.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding: 25px 10% 50px;
+}
+
+#pago-wingman-app header {
+	text-align: center;
+}
+
+#pago-wingman-app header img {
+	margin-bottom: 15px;
+	height: 70px;
+}
+
+#pago-wingman-app header h3 {
+	max-width: 50%;
+}
+
+
+#pago-wingman-app #the-process {
+	padding: 0 10% 20px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#pago-wingman-app #the-process .span4 + .span4 {
+	margin-left: 29px;
+}
+
+#pago-wingman-app #the-process p {
+	margin-top: 15px;
+}
+
+#pago-wingman-app #the-process .bullet {
+	background-image: url("../img/bullet.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: Verlag, "Arial Black", sans-serif;
+	font-size: 2em;
+	color: #fff;
+	width: 80px;
+	margin: 30px auto 15px;
+	padding: 15px 15px 55px;
+	line-height: 1.2;
+}
+
+
+#pago-wingman-app #pricing {
+	padding: 20px 0 50px;
+	position: relative;
+}
+
+#pago-wingman-app #pricing > h2 {
+	margin-bottom: 30px;
+}
+
+#pago-wingman-app #pricing > * {
+	position: relative;
+	z-index: 1;
+}
+
+#pago-wingman-app footer {
+	position: relative;
+	text-align: center;
+	padding: 50px 10% 100px;
+	margin-top: 80px;
+	background-color: #0244af;
+}
+
+#pago-wingman-app footer:before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	height: 80px;
+	-webkit-transform: skewY(-3deg);
+	-moz-transform: skewY(-3deg);
+	-ms-transform: skewY(-3deg);
+	-o-transform: skewY(-3deg);
+	transform: skewY(-3deg);
+	-webkit-transform-origin: bottom right;
+	-moz-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	-o-transform-origin: bottom right;
+	transform-origin: bottom right;
+	background-color: #0244af;
+	z-index: 0;
+}
+
+#pago-wingman-app footer a {
+	margin-top: 15px;
+}
+
+#pago-wingman-app footer > div {
+	position: relative;
+	z-index: 1;
+}
+
+#pago-wingman-app .pg-wingman-plan-wrapper {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+#pago-wingman-app wingman-plan,
+#pago-wingman-app .wingman-plan {
+	width: calc(25% + 1px);
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin-right: -1px;
+	align-items: center;
+}
+
+#pago-wingman-app .wingman-plan-single {
+	width: 100%;
+	margin-top: 0;
+}
+
+#pago-wingman-app wingman-plan.pg-wingman-plan-featured,
+#pago-wingman-app .wingman-plan.pg-wingman-plan-featured {
+	margin-top: 0;
+	background-color: #f8fcff;
+}
+
+#pago-wingman-app wingman-plan h1,
+#pago-wingman-app .wingman-plan h1 {
+	color: #2a2a2a;
+}
+
+#pago-wingman-app wingman-plan small,
+#pago-wingman-app .wingman-plan small {
+	display: block;
+	font-size: .4062em;
+	margin-top: 10px;
+}
+
+#pago-wingman-app wingman-plan h2,
+#pago-wingman-app .wingman-plan h2 {
+	font-size: .8125em;
+	margin-top: 0;
+}
+
+#pago-wingman-app wingman-plan ul,
+#pago-wingman-app .wingman-plan ul {
+	padding: 0;
+	margin: 0 0 20px;
+	list-style: none;
+}
+
+#pago-wingman-app wingman-plan li,
+#pago-wingman-app .wingman-plan li {
+	margin: 10px 0;
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-price,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-price {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-price strong,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-price strong {
+	display: block;
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-price-currency,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-price-currency {
+	vertical-align: top;
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-price-inverval,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-price-inverval {
+
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-price-amount,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-price-amount {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: .8;
+	color: #0244af;
+}
+
+#pago-wingman-app wingman-plan .wingman-btn,
+#pago-wingman-app .wingman-plan .wingman-btn {
+	margin-top: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#pago-wingman-app wingman-plan .pg-wingman-plan-flag-current,
+#pago-wingman-app .wingman-plan .pg-wingman-plan-flag-current {
+	display: none;
+}
+
+#pago-wingman-app wingman-plan.pg-wingman-plan-current .pg-wingman-plan-flag-current,
+#pago-wingman-app .wingman-plan.pg-wingman-plan-current .pg-wingman-plan-flag-current {
+	display: block;
+}
+
+#pago-wingman-app wingman-plan.pg-wingman-plan-current .wingman-btn,
+#pago-wingman-app .wingman-plan.pg-wingman-plan-current .wingman-btn {
+	display: none;
+}
+
+
+
+
+
+#pago-wingman-app #tabs > .tabs-buttons {
+	border: 0;
+}
+
+#pago-wingman-app #tabs > .tabs-buttons ul {
+	margin: 30px 0;
+}
+
+#pago-wingman-app #tabs > .tabs-buttons li {
+	display: inline-block;
+}
+
+#pago-wingman-app .tabs-buttons ul.ui-tabs-nav li a {
+	border: 0;
+	margin-right: 10px;
+}
+
+#pago-wingman-app .tabs-buttons ul.ui-tabs-nav li.ui-state-active a,
+#pago-wingman-app .tabs-buttons ul.ui-tabs-nav li a:hover {
+	border: 0;
+	background-color: #0244af;
+	color: #fff;
+}
+
+#pago-wingman-app .tabs-buttons ul.ui-tabs-nav li.ui-state-active a:before,
+#pago-wingman-app .tabs-buttons ul.ui-tabs-nav li a:hover:before {
+	display: none;
+}
+
+#pago-wingman-app #tabs > .tabs-content {
+	padding-top: 1px;
+}
+
+
+#pago-wingman-app .pg-border {
+	background-color: #fff;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+
+#pago-wingman-app .messages {
+	max-height: 300px;
+	overflow: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#pago-wingman-app .messages > div {
+	display: table;
+	clear: both;
+}
+
+#pago-wingman-app .messages .me {
+	float: right;
+}
+
+#pago-wingman-app .messages > div:not(:first-child) {
+	padding-top: 10px;
+}
+
+#pago-wingman-app .messages > div > * {
+	display: table-cell;
+}
+
+
+#pago-wingman-app .messages .message {
+	padding: 10px;
+	position: relative;
+	border: 1px solid #eee;
+	background-color: #fafafa;
+	-webkit-border-radius: 5px 5px 5px 0;
+	-moz-border-radius: 5px 5px 5px 0;
+	border-radius: 5px 5px 5px 0;
+}
+
+#pago-wingman-app .messages .me .message {
+	background-color: #fff;
+	-webkit-border-radius: 5px 5px 0 5px;
+	-moz-border-radius: 5px 5px 0 5px;
+	border-radius: 5px 5px 0 5px;
+}
+
+#pago-wingman-app .messages .message:before,
+#pago-wingman-app .messages .message:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	bottom: 0;
+
+	right: 100%;
+	left: auto;
+	border-width: 0 0 7px 7px;
+	border-color: transparent transparent #fafafa transparent;
+}
+
+#pago-wingman-app .messages .me .message:before,
+#pago-wingman-app .messages .me .message:after {
+	right: auto;
+	left: 100%;
+	border-width: 7px 0 0 7px;
+	border-color: transparent transparent transparent #fff;
+}
+
+#pago-wingman-app .messages .message:after {
+	z-index: 0;
+	margin-left: -1px;
+    bottom: -1px;
+    border-width: 0 0 9px 9px;
+    border-color: transparent transparent #eee transparent;
+}
+
+#pago-wingman-app .messages .me .message:after {
+	z-index: 0;
+	margin-left: 0;
+    border-width: 9px 0 0 9px;
+    border-color: transparent transparent transparent #eee;
+}
+
+#pago-wingman-app .messages .author {
+	vertical-align: bottom;
+	line-height: 1;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+#pago-wingman-app .messages .me .author {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+#pago-wingman-app .wingman-message-form button {
+	margin-top: 0;
+}
+
+
+#pago-wingman-app .files {
+	margin-bottom: 10px;
+}
+
+#pago-wingman-app .files a {
+	vertical-align: middle;
+}
+
+#pago-wingman-app .files > div:not(:first-child) {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+}
+
+#pago-wingman-app .files sup {
+	color: #0244af;
+	border: 1px solid #0244af;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 2px 4px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+
+#pago-wingman-app .wingman-keyword {
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #0244af;
+	border-radius: 3px;
+	background-color: #F5F9FF;
+	color: #0244af;
+	font-weight: bold;
+	width: 48%;
+	margin-left: 4%;
+}
+
+#pago-wingman-app .wingman-keyword:nth-child(2n+1) {
+	margin-left: 0;
+}
+
+#pago-wingman-app.wingman-keyword button {
+	line-height: .6;
+}
